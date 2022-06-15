@@ -1,0 +1,188 @@
+2022-06-11T08:55:05+00:00 [test: ] stdClass Object
+(
+    [meta] => stdClass Object
+        (
+            [href] => https://online.moysklad.ru/api/remap/1.2/entity/customerorder/a209d9e1-e963-11ec-0a80-0f9b00169d10
+            [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/customerorder/metadata
+            [type] => customerorder
+            [mediaType] => application/json
+            [uuidHref] => https://online.moysklad.ru/app/#customerorder/edit?id=a209d9e1-e963-11ec-0a80-0f9b00169d10
+        )
+
+    [id] => a209d9e1-e963-11ec-0a80-0f9b00169d10
+    [accountId] => 8571aaa0-e265-11ec-0a80-058e00004b16
+    [owner] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/employee/85a8010c-e265-11ec-0a80-0d40000c5144
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/employee/metadata
+                    [type] => employee
+                    [mediaType] => application/json
+                    [uuidHref] => https://online.moysklad.ru/app/#employee/edit?id=85a8010c-e265-11ec-0a80-0d40000c5144
+                )
+
+        )
+
+    [shared] => 
+    [group] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/group/85720b21-e265-11ec-0a80-058e00004b17
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/group/metadata
+                    [type] => group
+                    [mediaType] => application/json
+                )
+
+        )
+
+    [updated] => 2022-06-11 11:54:49.082
+    [name] => 00020
+    [externalCode] => I1BK0TK8gwnnrNTjsd8-Y3
+    [moment] => 2022-06-11 11:50:00.000
+    [applicable] => 1
+    [rate] => stdClass Object
+        (
+            [currency] => stdClass Object
+                (
+                    [meta] => stdClass Object
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.2/entity/currency/85bb3d52-e265-11ec-0a80-0d40000c5190
+                            [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/currency/metadata
+                            [type] => currency
+                            [mediaType] => application/json
+                            [uuidHref] => https://online.moysklad.ru/app/#currency/edit?id=85bb3d52-e265-11ec-0a80-0d40000c5190
+                        )
+
+                )
+
+        )
+
+    [sum] => 5000
+    [store] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/store/85bb1376-e265-11ec-0a80-0d40000c518b
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/store/metadata
+                    [type] => store
+                    [mediaType] => application/json
+                    [uuidHref] => https://online.moysklad.ru/app/#warehouse/edit?id=85bb1376-e265-11ec-0a80-0d40000c518b
+                )
+
+        )
+
+    [agent] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/counterparty/85bb2d72-e265-11ec-0a80-0d40000c518e
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/counterparty/metadata
+                    [type] => counterparty
+                    [mediaType] => application/json
+                    [uuidHref] => https://online.moysklad.ru/app/#company/edit?id=85bb2d72-e265-11ec-0a80-0d40000c518e
+                )
+
+        )
+
+    [organization] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/organization/85ba0ade-e265-11ec-0a80-0d40000c5189
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/organization/metadata
+                    [type] => organization
+                    [mediaType] => application/json
+                    [uuidHref] => https://online.moysklad.ru/app/#mycompany/edit?id=85ba0ade-e265-11ec-0a80-0d40000c5189
+                )
+
+        )
+
+    [state] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/customerorder/metadata/states/85d151f3-e265-11ec-0a80-0d40000c51ba
+                    [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/customerorder/metadata
+                    [type] => state
+                    [mediaType] => application/json
+                )
+
+        )
+
+    [created] => 2022-06-11 11:51:09.082
+    [printed] => 
+    [published] => 
+    [files] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/customerorder/a209d9e1-e963-11ec-0a80-0f9b00169d10/files
+                    [type] => files
+                    [mediaType] => application/json
+                    [size] => 0
+                    [limit] => 1000
+                    [offset] => 0
+                )
+
+        )
+
+    [positions] => stdClass Object
+        (
+            [meta] => stdClass Object
+                (
+                    [href] => https://online.moysklad.ru/api/remap/1.2/entity/customerorder/a209d9e1-e963-11ec-0a80-0f9b00169d10/positions
+                    [type] => customerorderposition
+                    [mediaType] => application/json
+                    [size] => 9
+                    [limit] => 1000
+                    [offset] => 0
+                )
+
+        )
+
+    [vatEnabled] => 1
+    [vatIncluded] => 1
+    [vatSum] => 0
+    [payedSum] => 0
+    [shippedSum] => 0
+    [invoicedSum] => 0
+    [reservedSum] => 0
+    [purchaseOrders] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [meta] => stdClass Object
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.2/entity/purchaseorder/264a910d-e964-11ec-0a80-09490016d024
+                            [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/purchaseorder/metadata
+                            [type] => purchaseorder
+                            [mediaType] => application/json
+                            [uuidHref] => https://online.moysklad.ru/app/#purchaseorder/edit?id=264a910d-e964-11ec-0a80-09490016d024
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [meta] => stdClass Object
+                        (
+                            [href] => https://online.moysklad.ru/api/remap/1.2/entity/purchaseorder/bbf153bb-e963-11ec-0a80-0bd300166d8f
+                            [metadataHref] => https://online.moysklad.ru/api/remap/1.2/entity/purchaseorder/metadata
+                            [type] => purchaseorder
+                            [mediaType] => application/json
+                            [uuidHref] => https://online.moysklad.ru/app/#purchaseorder/edit?id=bbf153bb-e963-11ec-0a80-0bd300166d8f
+                        )
+
+                )
+
+        )
+
+    [shipmentAddress] => г.Москва, ул.Строителей, д.11
+    [shipmentAddressFull] => stdClass Object
+        (
+            [addInfo] => г.Москва, ул.Строителей, д.11
+        )
+
+)

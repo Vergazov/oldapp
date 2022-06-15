@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <h3>
+            Если все товары Заказа покупателя "На складе", то в Заказ покупателя установить статус:
+            <form action="update-settings.php" method="POST">           
+                <select name="chosenstatus">
+                    <?php for ($i=0; $i < 5 ; $i++): ?>
+                        <option value="<?php echo $statesValues[$i]->name . '/' . $statesValues[$i]->id ;?>"><?php echo $statesValues[$i]->name;?></option>
+                    <?php endfor; ?>       
+                </select>            
+
+        </h3>
+        <h3>Смена статуса Запрещена, если заказ имеет один из статусов:</h3>
+        <h3>
+            <select name="ignorestatuses[]" multiple>
+                <?php for ($i=0; $i < 5 ; $i++): ?>
+            	    <option value="<?php echo $statesValues[$i]->name . '/' . $statesValues[$i]->id;?>"><?php echo $statesValues[$i]->name;?></option>
+			    <?php endfor; ?>
+            </select>
+            <input type="hidden" name="accountId" value="<?=$accountId?>"/>
+            <input type="submit">
+
+            </form>
+        </h3>
+    </p>
+    
+</body>
+</html>
